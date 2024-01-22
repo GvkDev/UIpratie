@@ -1,0 +1,110 @@
+
+
+		HTML, CSS  , JavaScript
+		
+		
+		JavaScript: Language  --> What do you mean by a Language --> To  Interact/Communicate we use language
+		
+		--> JavaScript  -->  Who is speaking? who is listening?
+		
+		
+		Programmer ... Developer  -- User > System/Machine  --> understands only  --> 0 and 1  --> On and Off --> Electricity --> ASCII  A --56
+		
+		Language--> to interact with the machine
+		
+		
+		JavaScript --> LightWeight  ->> Weight less  --> File Sizes are very less to work with  --> 
+									No need to install any external software/Any Dependencies to run a JavaScript Program
+									
+									Dynamic : JavaScript program will be converted to machine understandable language --> Conversion happens in two ways:
+									
+									line by line conversion -- throws errors at the same line and terminates the execution  --> 
+									
+									error is nothing but which is not understandable / bugs
+									
+									Compilation 
+									
+									It converts all the program at a time and lists all the errors --> Dynamic Conversion --> Interpretation 
+									
+									JavaScript follows Interpretation --> Dynamic Language
+									
+		JavaScript --> Loosly Typed --> There is a unit to calculate or measure the capability/volume  --> 
+		
+		                     --> Dealing with Data --> Data has units --> Numbers, Strings, Characters, Boolean --> Data Types
+							 
+							 we should provide Data Type  --> JavaScript Defines the data type by its value  --> Loosely Typed 
+							 
+							 
+							 
+		
+		data is defined by Variables--> var x; var name; var full_name; 
+															x=10; x is a number data type
+															x= "hello"--> x is a string
+															
+															
+	<html>
+	<head></head>
+	<body></body>
+	</html>
+	
+	JavaScript --> inline scripting  --> in the tag 
+	
+								internal --> inside <head><style></style></head> --> define the scripting inside <script></script>
+								External --> .js file is defined outside and linked with the file 
+								
+	
+	
+	HTML --> Display Text / Documents/ Web Pages  in the browser
+	
+	CSS --> Applying Styles to the file/web page/
+	
+	JavaScript --> The Actual Interaction between the business user/client/ user/ and Application happens by using JavaScript
+	
+	
+	JavaScript  --> two types we write programs 
+						   --> by using functions, by using javascript objects
+	
+	
+						function --> the instructions which are used for a particular purpose
+						Object    --> Definition is called class --> the actual existence is called objects
+											
+											Car-- class 
+											Audi --> class
+											Audi c class white color 2023 model TS008tc5678  --> object
+											
+											
+						Function --> display the colors of the object, adding the object to the cart, display the cost of the object, 
+						Object  --> Service/entertainment or product sales are happening  --> selling thing 
+						
+						
+						An Application is developed by using JavaScript following two ways --> function based and object based
+						
+						
+						
+						
+						Variables-- to manage data we declare and define the variables, 
+						
+						document.write() is used to display on the web page/document
+						
+						console.log() is used to display on the console of developer tools/inspect
+						
+						any html tage if we want to use , write it inside of "" in document.write("")
+						
+						One statement need not to be ended with semi colon, 
+						
+						if there are more than one statement in a single line then every statement except the last should be ended with semi colon
+						
+						
+						var x=10;
+						var $x=10;
+						var _x=10;
+						var x123=10;
+						
+						the above all formats are allowed to define the variables in javascript
+						
+						JavaScript variables are case sensitive
+						
+						
+						
+						
+						

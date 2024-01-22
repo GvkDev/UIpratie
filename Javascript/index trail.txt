@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+doument.write("Hello, This is javasript first program")
+</script>
+</body>
+</html>
