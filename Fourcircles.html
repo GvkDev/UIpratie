@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,33 +7,29 @@
     <title>Document</title>
     <style>
         .circle1{
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             border: 5;
             background: red;
             border-radius: 50%;
             position:absolute;
             left: 800px;
             top: 200px;
-            transition:6s;
-        
-
-            
+            transition:6s;    
         }
-        .circle1:hover{left:0%
-        transform:scale(1.2);
-            
         
-        }
+        
         .circle2{
             width: 200px;
             height: 200px;
             border: 5;
             background:blue;
+            
             border-radius: 50%;
             position: absolute;
-            left: 800px;
-            top: 200px;
+            top: 500px;
+            left: 400px;
+            transition:6s;
         }
         .circle3{
             width: 200px;
@@ -41,8 +38,9 @@
             background:rgb(156, 18, 98);
             border-radius: 50%;
             position: absolute;
-            left: 800px;
-            top: 200px;
+            left: 500px;
+            bottom:500px;
+            transition:6s;
         }
         .circle4{
             width: 200px;
@@ -51,13 +49,21 @@
             background:rgb(14, 136, 158);
             border-radius: 50%;
             position: absolute;
-            left: 800px;
+            right:1000px;
             top: 200px;
+            transition:6s;
         }
-        
-        
-        .cirle2:hover{left:0%
-        
+        .circle1:hover{left:0%;
+        transform:scale(1.2);
+           }
+        .circle2:hover{top:0%;
+        transform:scale(1.2);
+        }
+        .circle3:hover{bottom:0%;
+        transform:scale(1.2);
+        }
+        .circle4:hover{right:0%;
+        transform:scale(1.2);
         }
         
         
@@ -68,5 +74,8 @@
     <div class="circle2"></div>
     <div class="circle3"></div>      
     <div class="circle4"></div>
+    
+</body>
+</html>
 </body>
 </html>

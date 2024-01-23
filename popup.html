@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home{
+            color: darkgreen;
+        
+    
+    cursor: pointer;
+    
+    background-color: blueviolet;}
+    .popup{position: relative;
+        visibility:hidden;
+        border: 1px;
+        border-radius: 10px;
+        border-color: rgb(15, 15, 15);
+        width:10%;
+        height:70%;
+        background-color: blueviolet;
+        color:white;
+        padding: 1px 1px 1px 1px;
+    }
+    .home:hover +.popup{visibility:visible;
+    
+    }
+    .nav{display: flex;
+    justify-content: ;}
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+    <div class="home">Home</div>
+    
+    <div class="popup"><p>something in the popup,</p>
+        <p>we see when it's hover</p></div>
+    
+        <div class="about">About</div>
+        <div class="product">Product</div>
+        <div class="servies">Servies</div>
+        <div class="contact">Contact</div>
+        </div>
+            </div>
+    </div>
+</body>
+</html>
